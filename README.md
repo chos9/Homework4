@@ -28,9 +28,9 @@ is not divisible by 3. However, We need to be more careful about the second cond
 <dl>
 	<dt>Conjecture</dt>
 	<dd>
-	f defined as above question, the set {f(n) : n in Z and f(n) is prime} is infinite if it satisfies below conditions:
-	1. irreducible to the integer factors,
-	2. f should not be a function which is even for all n.
+	f defined as above question, the set {f(n) : n in Z and f(n) is prime} is infinite if it satisfies below conditions: <br />
+	1. irreducible to the integer factors, <br />
+	2. f should not be a function which is even for all n. 
 	</dd>
 </dl>
 
@@ -77,9 +77,9 @@ Problem 3
 ---------
 
 I made up a rational number alpha whose numerator and denominator each 
-have 7 digits. Here's two facts about that rational number:
-1. it is congruent to 372806624339965 modulo 37+10^15;
-2. its decimal expansion begins 0.13869616280169693....
+have 7 digits. Here's two facts about that rational number: <br />
+1. it is congruent to 372806624339965 modulo 37+10^15; <br />
+2. its decimal expansion begins 0.13869616280169693.... <br />
 What do you think my rational number is?
 
 Solution
@@ -87,11 +87,11 @@ Solution
 
 The grand number is ~~~ 1234567/8901234.
 
-It can be calculated by these steps: 
-1. use continued_fraction(0.13869616280169693), 
-2. find the convergents, 
+It can be calculated by these steps: <br />
+1. use continued_fraction(0.13869616280169693), <br />
+2. find the convergents, <br />
 3. cleverly choose the last fraction which has 7 digits for both 
-numerator and denominator (and it is very noticeable too), 
+numerator and denominator (and it is very noticeable too), <br />
 4. and compute mod(numerator,10^15+37)*mod(1/denominator,10^15+37) and 
 check whether it is same as 372806624339965. (This above method 
 works because 10^15+37 is prime number.)
