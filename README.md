@@ -28,7 +28,7 @@ is not divisible by 3. However, We need to be more careful about the second cond
 <dl>
 	<dt>Conjecture</dt>
 	<dd>
-	f being defined as above question, the set {f(n) : n in Z and f(n) is prime} is infinite if it satisfies below conditions:
+	f defined as above question, the set {f(n) : n in Z and f(n) is prime} is infinite if it satisfies below conditions:
 	1. irreducible to the integer factors,
 	2. f should not be a function which is even for all n.
 	</dd>
